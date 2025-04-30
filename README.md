@@ -91,3 +91,43 @@ A Java application for managing motor vehicle insurance policies and claims. Sup
 - No data persistence between runs (in-memory only).
 
 ---
+
+# OnlineShoppingSystem
+
+A Java-based simulation of an online shopping experience. Users can browse, add items to a cart, and checkout, with support for various product categories.
+
+
+
+## Features
+- Customer registration and validation
+- Shopping cart management
+- Multiple item categories (Accessories, Books, Clothing, Electronics, Groceries, etc.)
+- Checkout and payment simulation
+- Sales reporting
+
+## Notes
+- For interactive use, always use the `-it` flag with Docker.
+- No data persistence between runs (in-memory only).
+
+---
+
+For more details, see the source code and comments.
+
+# Advanced Stock Management System - qn1
+
+This project is a Java-based stock management system. You can build and run it easily using Docker, ensuring a consistent environment for all users.
+
+## Prerequisites
+- [Docker](https://www.docker.com/products/docker-desktop) installed on your system.
+
+## Notes
+- The Dockerfile automatically compiles all `.java` files before running the application.
+- No `.class` files are stored in the repository; they are generated during the build.
+- If you make changes to the source code, rebuild the Docker image to apply them.
+
+## Troubleshooting
+- If you see `NoSuchElementException: No line found`, make sure you are running the container with the `-it` flags.
+
+---
+
+Feel free to open issues or contribute improvements!
