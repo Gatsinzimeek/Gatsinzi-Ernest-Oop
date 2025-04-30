@@ -1,0 +1,14 @@
+# Ignore build and IDE files
+*.class
+*.jar
+*.war
+*.iml
+.DS_Store
+.idea/
+.vscode/
+*.log
+*.tmp
+out/
+bin/
+# Ignore OS generated files
+Thumbs.db
